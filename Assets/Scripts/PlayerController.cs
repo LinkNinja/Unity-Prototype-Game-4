@@ -47,7 +47,8 @@ public class PlayerController : MonoBehaviour
     }
 
     //The Ienumerator is something in programming known as an interface.
-    //Helps enable a countdown timer outside of the update loop
+    // Helps enable a countdown timer outside of the update loop
+    // .net time to no pause an interaction 
     IEnumerator PowerupCountdownRoutine()
     {
         //enable to run this timer outside of our update loop
